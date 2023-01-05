@@ -46,14 +46,3 @@ window.onload = windowOnload;
 // それぞれのボタンをクリックした際の処理
 studentIdButton.addEventListener('click', studentIDButtonClick);
 dataStopButton.addEventListener('click', dataStopButtonClick);
-
-
-// データ取得処理
-// const getWindowScrollPosition = function () {
-//   return {
-//     x: typeof window.scrollX !== 'undefined' ? window.scrollX : (typeof document.documentElement.scrollLeft !== "undefined" ? document.documentElement.scrollLeft : document.body.scrollLeft),
-//     y: typeof window.scrollY !== 'undefined' ? window.scrollY : (typeof document.documentElement.scrollTop !== "undefined" ? document.documentElement.scrollTop : document.body.scrollTop)
-//   };
-// };
-
-// setInterval(console.log(getWindowScrollPosition().x), 1000);
